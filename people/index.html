@@ -1,0 +1,85 @@
+---
+layout: default
+title: People
+description: Members of GeoDesiC Lab.
+---
+
+
+
+
+<section class="single">
+		<h2>Principal Investigator</h2>
+
+
+			<div class="center-div">
+			<article class="headshot-wrapper">
+				<div><img class="pi-headshot headshot" src="/images/people/jake.png" /></div>
+				<ul class="contact-info">
+					<li><b>Jake Welde</b>, PhD</li>
+					<li>Assistant Professor</li>
+					<li>Sibley School of Mechanical <br>and Aerospace Engineering</li>
+					<li><span class="grey">office:</span> Upson Hall 449</li>
+					<li><span class="grey">lab:</span> Upson Hall 466</li>
+					<li><a href="mailto:jakewelde@cornell.edu">jakewelde@cornell.edu</a></li>
+				</ul>
+			</article>
+			</div>
+
+			<p style="clear: both; padding-top: 20px;">
+				Dr. Jake Welde is an Assistant Professor in the <a href="https://www.engineering.cornell.edu/mae/">Sibley School of Mechanical 
+				and Aerospace Engineering</a> at <a href="https://www.cornell.edu">Cornell University</a>
+				and a member of <a href="https://robotics.cornell.edu">Robotics@Cornell</a>.
+				His research explores the role of differential geometry 
+				and dynamical systems theory in control synthesis and design for robotic systems, exploiting 
+				structural properties to explainably synthesize efficient controllers, accelerate learning 
+				algorithms, and develop more capable robot morphologies. He envisions a future in which robots move through their surroundings as capably and dynamically as their counterparts in Nature.
+			</p>
+			<p>
+				Prior to joining MAE at Cornell in 2025, Jake spent a decade at the 
+				<a href="https://www.upenn.edu">University of Pennsylvania</a>, 
+				where he completed his undergraduate and doctoral degrees in Mechanical Engineering 
+				and Applied Mechanics and his Masters in Robotics.
+				His PhD thesis, 
+				 <a href="/files/jake_welde_thesis.pdf">"Geometric Methods for Efficient and Explainable Control of Underactuated Robotic Systems"</a>, was completed in the 
+				<a href="https://www.grasp.upenn.edu">GRASP Laboratory</a>. 
+				Jake was a finalist for a Best Paper Award at ICRA (2021) and the recipient of a 
+				National Science Foundation Graduate Research Fellowship (2019). He has also been 
+				recognized as an RSS Pioneer (2024) and has earned departmental awards for teaching 
+				as well as scholarship, resourcefulness, and leadership.
+			</p>
+			<p>
+				<a href="https://scholar.google.com/citations?user=u8f4WQ0AAAAJ&hl=en">Google Scholar</a>
+				| 
+				<a href="/files/jake_welde_thesis.pdf">Ph.D. Thesis</a>
+				| 
+				<a href="/files/jake_welde_CV.pdf">Full CV</a> (Summer 2025) 
+			</p>
+
+		<h2>Students</h2>
+
+		<p>As a newly-founded research group, we are actively recruiting students at all levels. Please find out more <a href="/join">here</a>.</p>
+
+
+		<!-- <h2>{{ person.name }} - {{ person.role }}</h2> -->
+		<!-- <p>{{ person.content | markdownify }}</p> -->
+
+		<div>
+
+					{% for person in site.people %}
+
+				<!-- <article class="person-token"> -->
+
+					<img src="{{ person.featured_image | relative_url }}" alt="{{ person.name }}" class="headshot">
+
+					<h2>{{ person.name }}</h2>
+
+
+
+				<!-- </article> -->
+
+				{% endfor %}
+
+
+		</div>
+
+</section>
