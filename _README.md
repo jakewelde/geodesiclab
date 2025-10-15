@@ -1,3 +1,12 @@
+# Jekyll Github Pages Deployment
+
+This repo automatically deploys a 
+Jekyll 4+ site to GitHub Pages with GitHub Actions. 
+It was created by following this guide: 
+https://www.moncefbelyamani.com/making-github-pages-work-with-latest-jekyll
+
+This site was adapted from the Theme below.
+
 # Board by JekyllThemes.io – Instructions
 
 If you have any questions or feedback about the theme, don't hesitate to reach out to hello@jekyllthemes.io for 1-to-1 support direct from the developers.
