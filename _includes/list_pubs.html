@@ -43,13 +43,13 @@
             <ul class="paper_links">
                 {% if post.paperurl %}
                     <li>
-                        <a href="{{ post.paperurl }}">
+                        <a href="{{ post.paperurl | relative_url }}">
                             Article</a>
                     </li>
                 {% endif %}
                 {% if post.arxiv %}
                     <li>
-                        <a href="{{ post.arxiv }}">
+                        <a href="{{ post.arxiv | relative_url }}">
                             arXiv</a>
                     </li>    
                 {% endif %}
@@ -61,13 +61,13 @@
                 {% endif %}
                 {% if post.video %}
                     <li>
-                        <a href="{{ post.video }}">
+                        <a href="{{ post.video | relative_url }}">
                             Video</a>
                     </li>    
                 {% endif %}
                 {% if post.talk %}
                     <li>
-                        <a href="{{ post.talk }}">
+                        <a href="{{ post.talk | relative_url }}">
                             Talk</a>
                     </li>    
                 {% endif %}
