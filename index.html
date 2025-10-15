@@ -1,10 +1,16 @@
 ---
 layout: default
 title: The Geometry, Design, and Control Laboratory
-description: The Geometry, Design, and Control Laboratory is a robotics research group within the Sibley School of Mechanical and Aerospace Engineering at Cornell University.
+description: The Geometry, Design, and Control Laboratory is a robotics and control research group within the Sibley School of Mechanical and Aerospace Engineering at Cornell University.
 
 ---
 
+<section class="tagline">
+	<p>
+		The <b>Geo</b>metry, <b>Desi</b>gn, and <b>C</b>ontrol ("<b>GeoDesiC</b>") Laboratory is a robotics and control research group at Cornell University. 
+		We explore the role of differential geometry in control synthesis and morphology design for robotic systems.
+	</p>	
+</section>
 
 
 <section class="listing">
@@ -17,8 +23,8 @@ description: The Geometry, Design, and Control Laboratory is a robotics research
 
 			<a class="listing-item__link" href="{{ project.url | relative_url }}">
 
-				<div class="listing-item__image">
-					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
+				<div class="listing-item__image" style="background-image: url('{{ project.featured_image | relative_url }}');">
+					<!-- <img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}"> -->
 				</div>
 
 				<div class="listing-item__content listing-item__content--{{ site.data.settings.grid_settings.content_alignment }}">

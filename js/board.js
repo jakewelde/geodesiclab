@@ -21,7 +21,7 @@
 	// State change event
 	History.Adapter.bind(window,'statechange',function(){
 		var state = History.getState();
-		// console.log(state);
+		console.log(state);
 
 		// Loading state
 		$('body').addClass('loading');
@@ -325,6 +325,10 @@
 		$('.single table').each(function () {
 			$(this).wrapAll('<div class="table-wrap"></div>');
 		});
+
+		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - MathJax
+
+		MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 
 	}
 

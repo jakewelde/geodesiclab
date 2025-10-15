@@ -22,10 +22,10 @@ menu_settings:
       url: '/join'
 
 footer_settings:
-  footer_tagline: The Geometry, Design, and Control Laboratory is a robotics research group within the Sibley School of Mechanical and Aerospace Engineering at Cornell University.
+  footer_tagline: The Geometry, Design, and Control Laboratory is a robotics and control research group within the Sibley School of Mechanical and Aerospace Engineering at Cornell University.
 
 grid_settings:
-  overlay_opacity: 0.8
+  overlay_opacity: 0.7
   grid_spacing: 20
   content_alignment: bottom
 
@@ -67,7 +67,8 @@ color_settings:
   background_color: '#ffffff'
   background_alt_color: '#f4f5f6'
   text_dark_color: '#000' # '#2A2F36'
-  text_medium_color: '#333' # '#6C7A89'
+  text_medium_color: '#111' # '#6C7A89'
+  # text_medium_color: '#333' # '#6C7A89'
   text_light_color: '#ABB7B7'
   accent_color: '#B31B1B' # '#761133'
   border_color: '#dddddd'
@@ -76,12 +77,17 @@ color_settings:
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
 
+
+
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Poppins:300,500" rel="stylesheet">'
+  # font_embed: '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">'
+  # title_font: '"Poppins", sans-serif'
+  # body_font: '"Poppins", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">'
   title_font: '"Poppins", sans-serif'
   body_font: '"Poppins", sans-serif'
-  regular_weight: 100
-  bold_weight: 500
+  regular_weight: 200
+  bold_weight: 400
   site_title:
     small_size: 22
     medium_size: 26
@@ -95,9 +101,9 @@ font_settings:
     weight: 500
     letter_spacing: 0
   grid_item_title:
-    small_size: 22
-    medium_size: 24
-    large_size: 28
+    small_size: 18
+    medium_size: 22
+    large_size: 24
     weight: 500
     letter_spacing: -0.02
   grid_item_subtitle:
@@ -157,8 +163,8 @@ font_settings:
     line_height: 1.7
   blockquote:
     small_size: 15
-    medium_size: 25
-    large_size: 35
+    medium_size: 22
+    large_size: 30
     weight: 300
     letter_spacing: -0.02
     line_height: 1.6

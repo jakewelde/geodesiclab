@@ -26,6 +26,7 @@
 	}
 }
 
+
 .center-div {
 	margin-left: auto;
 	margin-right: auto;
@@ -407,7 +408,7 @@ ul.contact-info {
 	margin-top: 20px;
 	/* background-color: beige; */
 
-	font-size: 11pt;
+	font-size: 12pt;
 	margin-left: 0;
 	padding-left: 0;
 
@@ -458,7 +459,130 @@ ul.contact-info li {
 	/* font-style: italic; */
 }
 
-// .headshot-wrapper {
-// 	min-width: 600px;
-// 	margin-top: 20px;
-// }
+
+
+
+
+.publist ol {
+	list-style-position: outside;
+    padding-inline-start: 0 !important;
+	padding: 0 !important;
+
+}
+
+li.publication_item {
+    line-height: 1.6em;
+    // padding-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+	text-align: left;
+}
+
+ul.paper_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 !important;
+    overflow: hidden;
+    margin-top:.75em;
+    margin-bottom:.75em;
+
+	font-size: $p-small*0.8;
+
+	@include mq(tabletp) {
+		font-size: $p-medium*0.8;
+	}
+
+	@include mq(laptop) {
+		font-size: $p-large*0.8;
+	}
+ }
+  
+  ul.paper_links li {
+    float: left;
+    margin-right: .5em;
+  }
+  
+  ul.paper_links li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-right:10px;
+    color: $accent-color;
+    border: 1.5px solid $accent-color;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    // font-size: 9pt;
+    font-weight: 500;
+    line-height: 1.3;
+
+	padding-top: $p-small*0.4;
+    padding-bottom: $p-small*0.4;
+    padding-left: $p-small*0.8;
+    padding-right: $p-small*0.8;
+
+	@include mq(tabletp) {
+		padding-top: $p-medium*0.4;
+		padding-bottom: $p-medium*0.4;
+		padding-left: $p-medium*0.8;
+		padding-right: $p-medium*0.8;
+	}
+
+	@include mq(laptop) {
+		padding-top: $p-large*0.4;
+		padding-bottom: $p-large*0.4;
+		padding-left: $p-large*0.8;
+		padding-right: $p-large*0.8;
+	}
+
+
+}
+  
+  ul.paper_links li a:hover {
+    border: 1.5px solid $overlay-accent-color;
+    color: $overlay-accent-color;
+    text-decoration: none;
+  }
+
+  .pubtitle {
+	font-weight: bold;
+  }
+
+
+
+
+.tagline  {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding: 10px 20px 10px 20px;
+	font-size: $blockquote-small;
+	font-weight: $blockquote-weight;
+	letter-spacing: $blockquote-spacing;
+	line-height: $blockquote-lineheight;
+
+	@include mq(tabletp) {
+		// padding: 15px 0 15px 30px;
+		font-size: $blockquote-medium;
+	}
+
+	@include mq(laptop) {
+		border-left-width: 4px;
+		// padding: 20px 0 20px 40px;
+		font-size: $blockquote-large;
+	}
+
+	p {
+		font-size: $blockquote-small;
+		font-weight: $blockquote-weight;
+		letter-spacing: $blockquote-spacing;
+		line-height: $blockquote-lineheight;
+
+		@include mq(tabletp) {
+			font-size: $blockquote-medium;
+		}
+
+		@include mq(laptop) {
+			font-size: $blockquote-large;
+		}
+	}
+}
