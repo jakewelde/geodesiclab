@@ -55,7 +55,7 @@
                 {% endif %}
                 {% if post.pdf %}
                     <li>
-                        <a href="{{ post.pdf }}">
+                        <a href="{{ post.pdf | relative_url }}">
                             PDF</a>
                     </li>
                 {% endif %}
