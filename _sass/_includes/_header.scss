@@ -32,8 +32,24 @@
 }
 
 .header__logo__img {
-	width: 100%;
-	height: auto;
+	// width: 100%;
+	// height: auto;
+
+	float: left; 
+	margin-right: 8px; 
+	top: -8px; 
+	position: relative;
+
+	height: 40px; 
+
+	@include mq(tabletp) {
+		height: 44px; 
+	}
+
+	@include mq(laptop) {
+		height: 54px; 
+	}
+
 }
 
 .header__title {
