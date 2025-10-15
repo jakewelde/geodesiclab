@@ -328,8 +328,10 @@
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - MathJax
 
-		MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-
+		if (typeof MathJax !== 'undefined') {
+			// MathJax sometimes loads slowly. Better to avoid crashing the script.
+			MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+		}
 	}
 
 	// Run functions on load
