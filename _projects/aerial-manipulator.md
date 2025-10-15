@@ -8,10 +8,10 @@ people: 'Jake Welde, Jack Campanella, Saibernard Yogendran, and Vijay Kumar'
 ---
 
 
-![Differential Transmission](/images/projects/differential.gif)
+![Differential Transmission]({{ '/images/projects/differential.gif' | relative_url }})
 
 *In ongoing work, we are developing an aerial manipulator suitable for dynamic aerial interaction tasks, actuating the arm via a differential transmission with powerful brushless motors located on the vehicle base.*
 
-![Custom Electronics](/images/projects/board.jpg)
+![Custom Electronics]({{ '/images/projects/board.jpg' | relative_url }})
 
 *Custom electronics interface all sensors and actuators directly with an onboard Raspberry Pi Compute Module 4 running real-time Ubuntu and ROS 2, using the ros2_control framework.*

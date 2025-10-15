@@ -13,7 +13,7 @@ people: 'Jake Welde, Matthew D. Kvalheim, and Vijay Kumar'
 <!-- 2023 -->
 
 
-![Flat Systems](/images/projects/flat_systems.svg)
+![Flat Systems]({{ '/images/projects/flat_systems.svg' | relative_url }})
 
 *The paper below includes a partial catalog of mechanical systems with geometric flat outputs, including worked examples the planar rocket, the planar aerial manipulator, and the quadrotor (shown above).*
 

@@ -11,7 +11,7 @@ people: 'Justin Thomas, Jake Welde, Giuseppe Loianno, Kostas Daniilidis, and Vij
 
 <!-- 2017  -->
 
-![Stroboscopic Photograph of Moving Target Tracking](/images/projects/tracking.png)
+![Stroboscopic Photograph of Moving Target Tracking]({{ '/images/projects/tracking.png' | relative_url }})
 
 *The aerial vehicle detects the moving target using its downward camera. It reacts, keeping the target in the field of view while converging to match the target's motion.*
 

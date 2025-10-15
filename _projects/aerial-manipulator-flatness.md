@@ -18,7 +18,7 @@ people: 'Jake Welde, James Paulos, and Vijay Kumar'
 2021 -->
 
 
-![Pick and Place Aerial Manipulation](/images/projects/pick_and_place.png)
+![Pick and Place Aerial Manipulation]({{ '/images/projects/pick_and_place.png'  | relative_url }})
 
 *A simulated aerial manipulator, consisting of a quadrotor equipped with a 2-DoF manipulator arm, performs a 6-DoF manipulation task precisely, by jointly leveraging the actuators in the arm and in the vehicle while respecting the underactuation constraints of the combined system.*
 

@@ -9,7 +9,7 @@ publications:
 people: 'Jake Welde, Matthew D. Kvalheim, and Vijay Kumar'
 ---
 
-![Cascade on the Torus](/images/projects/torus_cascade_transparent.gif)
+![Cascade on the Torus]({{ '/images/projects/torus_cascade_transparent.gif' | relative_url }})
 
 In this work, we give sufficient conditions for the
 almost global asymptotic stability of a cascade in which the

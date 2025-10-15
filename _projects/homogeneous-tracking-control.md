@@ -9,7 +9,7 @@ publications:
 people: 'Jake Welde and Vijay Kumar'
 ---
 
-![Tracking Control on the 2-Sphere](/images/projects/sphere_tracking.gif)
+![Tracking Control on the 2-Sphere]({{ '/images/projects/sphere_tracking.gif' | relative_url }})
 
 *The proposed method, applied to tracking control for a fully-actuated mechanical system on $$\mathbb{S}^2$$. Here, we visualize rollouts of the tracking controller from 100 randomly sampled initial states in $$T\mathbb{S}^2$$. Because the controller achieves almost global asymptotic tracking, the probability that a randomly sampled initial condition fails to converge to the reference trajectory is exactly zero.*
 

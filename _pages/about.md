@@ -4,12 +4,11 @@ description: The Geometry, Design, and Control Laboratory at Cornell University
 featured_image: /images/demo/landscape-05.jpg
 ---
 
-The **Geo**metry, **Desi**gn, and **C**ontrol (**GeoDesiC**) Laboratory  is a robotics and control research group at <a href="https://www.cornell.edu">Cornell University</a>, led by <a href="https://www.engineering.cornell.edu/people/jake-welde/">Prof. Jake Welde</a>. GeoDesiC Lab was founded in 2025 and is part of the <a href="https://www.engineering.cornell.edu/mae/">Sibley School of Mechanical and Aerospace Engineering</a>. 
+The **Geo**metry, **Desi**gn, and **C**ontrol (**GeoDesiC**) Laboratory  is a robotics and control research group at [Cornell University](https://www.cornell.edu), led by [Prof. Jake Welde](https://www.engineering.cornell.edu/people/jake-welde/). GeoDesiC Lab was founded in 2025 and is part of the [Sibley School of Mechanical and Aerospace Engineering](https://www.engineering.cornell.edu/mae/). 
 
 Our research explores the role of differential geometry and dynamical systems theory in control synthesis and morphology design for robotic systems, exploiting structural properties to explainably synthesize efficient controllers, accelerate learning algorithms, and develop more capable robot morphologies. We explore both abstract questions in control theory as well as concrete implications in the design of autonomous aerial robots, with the goal of synergy between these dual aspects of autonomous systems. 
 
-To learn more about the lab, take a look at our <a href="{{ '/research' | relative_url }}">research</a>, <a href="{{ '/publications' | relative_url }}">publications</a>, and <a href="{{ '/people' | relative_url }}">lab members</a>. You can also find information about <a href="{{ '/join' | relative_url }}">joining the lab</a>.
-
+To learn more about the lab, take a look at our [research]({{ '/' | relative_url }}), [publications]({{ '/publications' | relative_url }}), and [lab members]({{ '/people' | relative_url }}). You can also find information about [joining the lab]({{ '/join' | relative_url }}).
 
 <img src="{{ '/images/logo/logo_only.svg' | relative_url }}" style="width: 80pt;">
 
