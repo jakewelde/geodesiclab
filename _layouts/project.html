@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.subtitle }}</p>
+		<p><i>{{ page.people }}</i></p>
+
+	</div>
+
+</section>
+
+<section class="single">
+
+	{{ page.content }}
+
+</section>
+
+<section class="single">
+
+	{% if page.publications %}
+		{% assign relevant_pubs = "" | split: ',' %}
+		{% for pub in page.publications %}
+			{% assign pre = site.preprint | where:"citation_key", pub.key  | first %}
+			{% if pre %}
+				{% assign relevant_pubs = relevant_pubs | push: pre %}
+			{% endif %}
+			{% assign jo = site.journal | where:"citation_key", pub.key  | first %}
+			{% if jo %}
+				{% assign relevant_pubs = relevant_pubs | push: jo %}
+			{% endif %}
+			{% assign co = site.conference | where:"citation_key", pub.key  | first %}
+			{% if co %}
+				{% assign relevant_pubs = relevant_pubs | push: co %}
+			{% endif %}
+			{% assign co = site.workshop | where:"citation_key", pub.key  | first %}
+			{% if co %}
+				{% assign relevant_pubs = relevant_pubs | push: co %}
+			{% endif %}
+		{% endfor %}
+		{% include list_pubs.html pubs=relevant_pubs heading="Relevant Publications" %}
+	{% endif %}
+
+</section>
