@@ -74,7 +74,7 @@
 		margin-right: auto;
 		padding-left: 30px;
 		padding-right: 30px;
-		max-width: 500px;
+		// max-width: 500px;
 
 		@include mq(tabletp) {
 			padding-left: 0;
@@ -465,8 +465,41 @@ ul.contact-info li {
 
 .publist ol {
 	list-style-position: outside;
-    padding-inline-start: 0 !important;
-	padding: 0 !important;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	// max-width: 500px;
+
+	// max-width: 80%;
+
+	@include mq(tabletp) {
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 60%;
+		padding-inline-start: 0 !important;
+		padding: 0 !important;
+	}
+
+	@include mq(tabletl) {
+		max-width: 55%;
+		padding-inline-start: 0 !important;
+		padding: 0 !important;
+	}
+
+	@include mq(laptop) {
+		max-width: 50%;
+		padding-inline-start: 0 !important;
+		padding: 0 !important;
+	}
+
+	@include mq(desktop) {
+		max-width: 45%;
+		padding-inline-start: 0 !important;
+		padding: 0 !important;
+	}
+
 
 }
 
