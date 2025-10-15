@@ -21,19 +21,19 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/baseurl:%20/geodesiclab/images/logo/favicon.png">
-	<title>People – GEODESIC LAB</title>
-	<meta name="description" content="Members of GeoDesiC Lab.">
+	<title>Almost Global Asymptotic Tracking – GEODESIC LAB</title>
+	<meta name="description" content="">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="People – GEODESIC LAB">
-	<meta name="twitter:description" content="Members of GeoDesiC Lab.">
-	<meta name="twitter:image:src" content="">
+	<meta name="twitter:title" content="Almost Global Asymptotic Tracking – GEODESIC LAB">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image:src" content="https://geodesic.mae.cornell.edu/baseurl:%20/geodesiclab/images/projects/sphere_tracking.gif">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="People – GEODESIC LAB" />
-	<meta property="og:description" content="Members of GeoDesiC Lab." />
-	<meta property="og:image" content="" />
+	<meta property="og:title" content="Almost Global Asymptotic Tracking – GEODESIC LAB" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="https://geodesic.mae.cornell.edu/baseurl:%20/geodesiclab/images/projects/sphere_tracking.gif" />
 
 	
 	<!-- Font Embed Code -->
@@ -79,7 +79,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="https://geodesic.mae.cornell.edu" data-page-url="/people/">
+<body class="loading ajax-loading" data-site-url="https://geodesic.mae.cornell.edu" data-page-url="/project/homogeneous-tracking-control">
 
 
 	<header class="header">
@@ -136,74 +136,131 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="People – GEODESIC LAB">
+		<div class="page__content" data-page-title="Almost Global Asymptotic Tracking – GEODESIC LAB">
 
-			<section class="single">
-		<h2>Principal Investigator</h2>
+			<section class="intro">
 
+	<div class="wrap">
 
-			<div class="center-div">
-			<article class="headshot-wrapper">
-				<div><img class="pi-headshot headshot" src="/images/people/jake.png" /></div>
-				<ul class="contact-info">
-					<li><b>Jake Welde</b>, PhD</li>
-					<li>Assistant Professor</li>
-					<li>Sibley School of Mechanical <br>and Aerospace Engineering</li>
-					<li><span class="grey">office:</span> Upson Hall 449</li>
-					<li><span class="grey">lab:</span> Upson Hall 466</li>
-					<li><a href="mailto:jakewelde@cornell.edu">jakewelde@cornell.edu</a></li>
-				</ul>
-			</article>
-			</div>
+		<h1>Almost Global Asymptotic Tracking</h1>
+		<p>Extending tracking control algorithms to homogeneous spaces.</p>
+		<p><i>Jake Welde and Vijay Kumar</i></p>
 
-			<p style="clear: both; padding-top: 20px;">
-				Dr. Jake Welde is an Assistant Professor in the <a href="https://www.engineering.cornell.edu/mae/">Sibley School of Mechanical 
-				and Aerospace Engineering</a> at <a href="https://www.cornell.edu">Cornell University</a>.
-				He is a graduate field member in Mechanical Engineering, Aerospace Engineering, and Theoretical and Applied Mechanics and
-				a member of <a href="https://robotics.cornell.edu">Robotics@Cornell</a>.
-				His research explores the role of differential geometry 
-				and dynamical systems theory in control synthesis and design for robotic systems, exploiting 
-				structural properties to explainably synthesize efficient controllers, accelerate learning 
-				algorithms, and develop more capable robot morphologies. He envisions a future in which robots move through their surroundings as capably and dynamically as their counterparts in Nature.
-			</p>
-			<p>
-				Prior to joining MAE at Cornell in 2025, Jake spent a decade at the 
-				<a href="https://www.upenn.edu">University of Pennsylvania</a>, 
-				where he completed his undergraduate and doctoral degrees in Mechanical Engineering 
-				and Applied Mechanics and his Masters in Robotics.
-				His PhD thesis, 
-				 <a href="/files/jake_welde_thesis.pdf">"Geometric Methods for Efficient and Explainable Control of Underactuated Robotic Systems"</a>, was completed in the 
-				<a href="https://www.grasp.upenn.edu">GRASP Laboratory</a>. 
-				Jake was a finalist for a Best Paper Award at ICRA (2021) and the recipient of a 
-				National Science Foundation Graduate Research Fellowship (2019). He has also been 
-				recognized as an RSS Pioneer (2024) and has earned departmental awards for teaching, scholarship, and leadership.
-			</p>
-			<p>
-				<a href="https://scholar.google.com/citations?user=u8f4WQ0AAAAJ&hl=en">Google Scholar</a>
-				| 
-				<a href="/files/jake_welde_thesis.pdf">Ph.D. Thesis</a>
-				| 
-				<a href="/files/jake_welde_CV.pdf">Full CV</a> (Summer 2025) 
-			</p>
-
-		<h2>Students</h2>
-
-		<p>As a newly-founded research group, we are actively recruiting students at all levels. Please find out more <a href="/join">here</a>.</p>
-
-
-		<!-- <h2> - </h2> -->
-		<!-- <p>
-</p> -->
-
-		<div>
-
-					
-
-
-		</div>
+	</div>
 
 </section>
 
+<section class="single">
+
+	<p><img src="/images/projects/sphere_tracking.gif" alt="Tracking Control on the 2-Sphere" /></p>
+
+<p><em>The proposed method, applied to tracking control for a fully-actuated mechanical system on \(\mathbb{S}^2\). Here, we visualize rollouts of the tracking controller from 100 randomly sampled initial states in \(T\mathbb{S}^2\). Because the controller achieves almost global asymptotic tracking, the probability that a randomly sampled initial condition fails to converge to the reference trajectory is exactly zero.</em></p>
+
+<p>In this work, we address the design of tracking
+controllers that drive a mechanical system’s state asymptotically
+towards a reference trajectory. Motivated by aerospace and
+robotics applications, we consider fully-actuated systems evolving on the broad class of homogeneous spaces (encompassing all
+vector spaces, Lie groups, and spheres of any dimension). In this
+setting, the transitive action of a Lie group on the configuration
+manifold enables an intrinsic description of the tracking error
+as an element of the state space, even in the absence of a group
+structure on the configuration manifold itself (e.g., for \(\mathbb{S}^2\)). Such
+an error state facilitates the design of a generalized control
+policy depending smoothly on state and time that drives this
+geometric tracking error to a designated origin from almost
+every initial condition, thereby guaranteeing almost global
+convergence to the reference trajectory. Moreover, the proposed
+controller simplifies naturally when specialized to a Lie group
+or the \(n\)-sphere. In summary, we propose a unified, intrinsic
+controller guaranteeing almost global asymptotic trajectory
+tracking for fully-actuated mechanical systems evolving on
+a broader class of manifolds. We apply the method to an
+axisymmetric satellite and an omnidirectional aerial robot.</p>
+
+
+</section>
+
+<section class="single">
+
+	
+		
+		
+		
+
+
+
+
+
+<br>
+<h4>Relevant Publications</h4>
+
+<div class="publist">
+
+    <ol >
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="publication_item" >
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        <div>
+            <span class="pubtitle">Almost Global Asymptotic Trajectory Tracking for Fully-Actuated Mechanical Systems on Homogeneous Riemannian Manifolds</span>, <br />
+            Jake Welde and Vijay Kumar. <br />
+            <i>IEEE Control Systems Letters (L-CSS)</i>, 2024.
+            <br />
+    
+            <ul class="paper_links">
+                
+                    <li>
+                        <a href="https://ieeexplore.ieee.org/document/10518132">
+                            Article</a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://arxiv.org/abs/2403.04900">
+                            arXiv</a>
+                    </li>    
+                
+                
+                    <li>
+                        <a href="https://arxiv.org/pdf/2403.04900.pdf">
+                            PDF</a>
+                    </li>
+                
+                
+                
+            </ul>
+            
+        </div>
+      </article>
+    </div>
+    
+    </li>
+    
+    
+    
+    </ol>
+
+</div>
+
+    
+    
+
+
+
+
+
+
+	
+
+</section>
 
 		</div>
 

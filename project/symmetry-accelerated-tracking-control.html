@@ -21,19 +21,19 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/baseurl:%20/geodesiclab/images/logo/favicon.png">
-	<title>People – GEODESIC LAB</title>
-	<meta name="description" content="Members of GeoDesiC Lab.">
+	<title>Symmetry-Accelerated Learning – GEODESIC LAB</title>
+	<meta name="description" content="In this work, we explore the role of symmetry in accelerating reinforcement learning for trajectory tracking control in robotic systems.">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="People – GEODESIC LAB">
-	<meta name="twitter:description" content="Members of GeoDesiC Lab.">
-	<meta name="twitter:image:src" content="">
+	<meta name="twitter:title" content="Symmetry-Accelerated Learning – GEODESIC LAB">
+	<meta name="twitter:description" content="In this work, we explore the role of symmetry in accelerating reinforcement learning for trajectory tracking control in robotic systems.">
+	<meta name="twitter:image:src" content="https://geodesic.mae.cornell.edu/baseurl:%20/geodesiclab/images/projects/astrobee.gif">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="People – GEODESIC LAB" />
-	<meta property="og:description" content="Members of GeoDesiC Lab." />
-	<meta property="og:image" content="" />
+	<meta property="og:title" content="Symmetry-Accelerated Learning – GEODESIC LAB" />
+	<meta property="og:description" content="In this work, we explore the role of symmetry in accelerating reinforcement learning for trajectory tracking control in robotic systems." />
+	<meta property="og:image" content="https://geodesic.mae.cornell.edu/baseurl:%20/geodesiclab/images/projects/astrobee.gif" />
 
 	
 	<!-- Font Embed Code -->
@@ -79,7 +79,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="https://geodesic.mae.cornell.edu" data-page-url="/people/">
+<body class="loading ajax-loading" data-site-url="https://geodesic.mae.cornell.edu" data-page-url="/project/symmetry-accelerated-tracking-control">
 
 
 	<header class="header">
@@ -136,74 +136,119 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="People – GEODESIC LAB">
+		<div class="page__content" data-page-title="Symmetry-Accelerated Learning – GEODESIC LAB">
 
-			<section class="single">
-		<h2>Principal Investigator</h2>
+			<section class="intro">
 
+	<div class="wrap">
 
-			<div class="center-div">
-			<article class="headshot-wrapper">
-				<div><img class="pi-headshot headshot" src="/images/people/jake.png" /></div>
-				<ul class="contact-info">
-					<li><b>Jake Welde</b>, PhD</li>
-					<li>Assistant Professor</li>
-					<li>Sibley School of Mechanical <br>and Aerospace Engineering</li>
-					<li><span class="grey">office:</span> Upson Hall 449</li>
-					<li><span class="grey">lab:</span> Upson Hall 466</li>
-					<li><a href="mailto:jakewelde@cornell.edu">jakewelde@cornell.edu</a></li>
-				</ul>
-			</article>
-			</div>
+		<h1>Symmetry-Accelerated Learning</h1>
+		<p>Trajectory tracking control via sample-efficient reinforcement learning.</p>
+		<p><i>Jake Welde*, Nishanth Rao*, Pratik Kunapuli*, Dinesh Jayaraman, and Vijay Kumar (*equal contribution).</i></p>
 
-			<p style="clear: both; padding-top: 20px;">
-				Dr. Jake Welde is an Assistant Professor in the <a href="https://www.engineering.cornell.edu/mae/">Sibley School of Mechanical 
-				and Aerospace Engineering</a> at <a href="https://www.cornell.edu">Cornell University</a>.
-				He is a graduate field member in Mechanical Engineering, Aerospace Engineering, and Theoretical and Applied Mechanics and
-				a member of <a href="https://robotics.cornell.edu">Robotics@Cornell</a>.
-				His research explores the role of differential geometry 
-				and dynamical systems theory in control synthesis and design for robotic systems, exploiting 
-				structural properties to explainably synthesize efficient controllers, accelerate learning 
-				algorithms, and develop more capable robot morphologies. He envisions a future in which robots move through their surroundings as capably and dynamically as their counterparts in Nature.
-			</p>
-			<p>
-				Prior to joining MAE at Cornell in 2025, Jake spent a decade at the 
-				<a href="https://www.upenn.edu">University of Pennsylvania</a>, 
-				where he completed his undergraduate and doctoral degrees in Mechanical Engineering 
-				and Applied Mechanics and his Masters in Robotics.
-				His PhD thesis, 
-				 <a href="/files/jake_welde_thesis.pdf">"Geometric Methods for Efficient and Explainable Control of Underactuated Robotic Systems"</a>, was completed in the 
-				<a href="https://www.grasp.upenn.edu">GRASP Laboratory</a>. 
-				Jake was a finalist for a Best Paper Award at ICRA (2021) and the recipient of a 
-				National Science Foundation Graduate Research Fellowship (2019). He has also been 
-				recognized as an RSS Pioneer (2024) and has earned departmental awards for teaching, scholarship, and leadership.
-			</p>
-			<p>
-				<a href="https://scholar.google.com/citations?user=u8f4WQ0AAAAJ&hl=en">Google Scholar</a>
-				| 
-				<a href="/files/jake_welde_thesis.pdf">Ph.D. Thesis</a>
-				| 
-				<a href="/files/jake_welde_CV.pdf">Full CV</a> (Summer 2025) 
-			</p>
-
-		<h2>Students</h2>
-
-		<p>As a newly-founded research group, we are actively recruiting students at all levels. Please find out more <a href="/join">here</a>.</p>
-
-
-		<!-- <h2> - </h2> -->
-		<!-- <p>
-</p> -->
-
-		<div>
-
-					
-
-
-		</div>
+	</div>
 
 </section>
 
+<section class="single">
+
+	<p>Tracking controllers enable robotic systems to accurately follow planned reference trajectories. In particular, reinforcement learning (RL) has shown promise in the synthesis of controllers for systems with complex dynamics and modest online compute budgets. However, the poor sample efficiency of RL and the challenges of reward design make training slow and sometimes unstable, especially for high-dimensional systems. In this work, we leverage the inherent Lie group symmetries of robotic systems with a floating base to mitigate these challenges when learning tracking controllers. We model a general tracking problem as a Markov decision process (MDP) that captures the evolution of both the physical and reference states. Next, we prove that symmetry in the underlying dynamics and running costs leads to an MDP homomorphism, a mapping that allows a policy trained on a lower-dimensional “quotient” MDP to be lifted to an optimal tracking controller for the original system. We compare this symmetry-informed approach to an unstructured baseline, using Proximal Policy Optimization (PPO) to learn tracking controllers for three systems: the Particle (a forced point mass), the Astrobee (a fullyactuated space robot), and the Quadrotor (an underactuated system). Results show that a symmetry-aware approach both accelerates training and reduces tracking error at convergence.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AosGBe2uzxM?si=KmxUnhFG0GfL8fmR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<!-- A preliminary version of this work won a Best Paper Award at the [Workshop on Symmetry and Geometry in Neural Representations](https://www.neurreps.org) at NeurIPS 2024. -->
+
+
+</section>
+
+<section class="single">
+
+	
+		
+		
+		
+
+
+
+
+
+<br>
+<h4>Relevant Publications</h4>
+
+<div class="publist">
+
+    <ol >
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="publication_item" >
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        <div>
+            <span class="pubtitle">Leveraging Symmetry to Accelerate Learning of Trajectory Tracking Controllers for Free-Flying Robotic Systems</span>, <br />
+            Jake Welde*, Nishanth Rao*, Pratik Kunapuli*, Dinesh Jayaraman, and Vijay Kumar. <br />
+            <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, 2025.
+            <br />
+    
+            <ul class="paper_links">
+                
+                    <li>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/11127455">
+                            Article</a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://arxiv.org/abs/2409.11238">
+                            arXiv</a>
+                    </li>    
+                
+                
+                    <li>
+                        <a href="https://arxiv.org/pdf/2409.11238">
+                            PDF</a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=AosGBe2uzxM">
+                            Video</a>
+                    </li>    
+                
+                
+            </ul>
+            
+            <b>Best Contribution (Neuroscience &amp; Interpretability), NeurReps Workshop @ NeurIPS 2024.</b>
+            
+        </div>
+      </article>
+    </div>
+    
+    </li>
+    
+    
+    
+    </ol>
+
+</div>
+
+    
+    
+
+
+
+
+
+
+	
+
+</section>
 
 		</div>
 
