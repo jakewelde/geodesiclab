@@ -1,7 +1,7 @@
 basic_settings:
   # site_title: The Geometry, Design, and Control Laboratory  
-  # site_title: GeoDesiC Lab 
-  site_title: GEODESIC LAB 
+  site_title: GeoDesiC Lab 
+  # site_title: GEODESIC LAB 
   favicon_image: /images/logo/favicon.png
 
 header_settings:
