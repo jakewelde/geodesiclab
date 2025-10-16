@@ -1,1 +1,1 @@
-Sitemap: https://geodesic.mae.cornell.edu/geodesiclab/sitemap.xml
+Sitemap: https://geodesic.mae.cornell.edu/sitemap.xml
