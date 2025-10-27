@@ -23,7 +23,3 @@ If you are an M.S. and M.Eng. students currently enrolled Cornell, please reach 
 #### Undergraduate Students
 
 At the moment, we have opportunities only for extremely motivated and independent undergraduate students. If you are such a student, please reach out! A broader range of opportunities for undergraduate students will become available in the future.
-
-#### Postdoc Positions
-
-We do not currently have any postdoc opportunities.
