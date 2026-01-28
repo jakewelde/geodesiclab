@@ -10,6 +10,7 @@ year: '2024'
 authors: 'Jake Welde and Vijay Kumar'
 arxiv: 'https://arxiv.org/abs/2403.04900'
 pdf: 'https://arxiv.org/pdf/2403.04900.pdf'
+talk: '/files/CDC_2024.pdf'
 citation_key: 'Welde2024'
 ---
 [Access paper here](https://ieeexplore.ieee.org/document/10518132){:target="_blank"}
