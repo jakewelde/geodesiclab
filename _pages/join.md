@@ -18,7 +18,7 @@ If you are a current PhD student at Cornell interested in working in GeoDesiC La
 
 ####  M.S. and M.Eng. Students
 
-If you are an M.S. and M.Eng. students currently enrolled Cornell, please reach out to Prof. Welde over email describing your academic preparation, the kind of research you are interested in, and any prior research experience you have.
+If you are an M.S. or M.Eng. student currently enrolled Cornell, please reach out to Prof. Welde over email describing your academic preparation, the kind of research you are interested in, and any prior research experience you have.
 
 #### Undergraduate Students
 
