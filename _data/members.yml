@@ -32,17 +32,17 @@
 
 
 - name: Audrey Ho
-  major: 
+  major: '&nbsp;'
   level: ug
   image: /images/people/audrey-ho.jpg
 
 - name: Jonathan Song
-  major: 
+  major: '&nbsp;'
   level: ug
   image: /images/people/jonathan-song.png
 
 - name: Ollie Aizer
-  major: 
+  major: '&nbsp;'
   level: ug
   image: /images/people/ollie-aizer.jpg
 
@@ -57,7 +57,7 @@
   image: /images/people/lindsay-kossoff.jpg
 
 - name: Ronan Alo
-  major: 
+  major: '&nbsp;'
   level: ug
   image: /images/people/ronan-alo.jpeg
 
