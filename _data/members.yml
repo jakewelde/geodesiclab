@@ -8,6 +8,54 @@
 #   level: ms
 #   image: /images/people/clocktower.jpg
 
+
+- name: Sotiris Batategas
+  major: Aerospace Engineering
+  level: meng
+  image: /images/people/sotiris-batategas.jpg
+
+- name: Ava Ianuale
+  major: Mechanical Engineering
+  level: meng
+  image: /images/people/ava-ianuale.jpg
+
+- name: Ben Roitman
+  major: Aerospace Engineering
+  level: meng
+  image: /images/people/ben-roitman.jpeg
+
+- name: Delaney Lopez
+  major: Mechanical Engineering
+  level: meng
+  image: /images/people/delaney-lopez.jpg
+
+
+
+- name: Audrey Ho
+  major: Unaffiliated
+  level: ug
+  image: /images/people/audrey-ho.jpg
+
+- name: Jonathan Song
+  major: Unaffiliated
+  level: ug
+  image: /images/people/jonathan-song.png
+
+- name: Ollie Aizer
+  major: Unaffiliated
+  level: ug
+  image: /images/people/ollie-aizer.jpg
+
+- name: Andre Boufama
+  major: Mechanical Engineering
+  level: ug
+  image: /images/people/andre-boufama.png
+
+- name: Lindsay Kossoff
+  major: Mechanical Engineering
+  level: ug
+  image: /images/people/lindsay-kossoff.jpg
+
 - name: Ronan Alo
   major: Unaffiliated
   level: ug
@@ -18,52 +66,7 @@
   level: ug
   image: /images/people/utku-melemetci.jpg
 
-- name: Sotiris Batategas
-  major: Aerospace Engineering
-  level: meng
-  image: /images/people/sotiris-batategas.jpg
-
-- name: Ben Roitman
-  major: Aerospace Engineering
-  level: meng
-  image: /images/people/ben-roitman.jpeg
-
-- name: Ollie Aizer
-  major: Unaffiliated
-  level: ug
-  image: /images/people/ollie-aizer.jpg
-
-- name: Jonathan Song
-  major: Unaffiliated
-  level: ug
-  image: /images/people/jonathan-song.png
-
-- name: Andre Boufama
-  major: Mechanical Engineering
-  level: ug
-  image: /images/people/andre-boufama.png
-
-- name: Ava Ianuale
-  major: Mechanical Engineering
-  level: meng
-  image: /images/people/ava-ianuale.jpg
-
 - name: Joseph Cobb
   major: Electrical and Computer Engineering
   level: ug
   image: /images/people/joseph-cobb.png
-
-- name: Audrey Ho
-  major: Unaffiliated
-  level: ug
-  image: /images/people/audrey-ho.jpg
-
-- name: Lindsay Kossoff
-  major: Mechanical Engineering
-  level: ug
-  image: /images/people/lindsay-kossoff.jpg
-
-- name: Delaney Lopez
-  major: Mechanical Engineering
-  level: meng
-  image: /images/people/delaney-lopez.jpg
