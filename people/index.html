@@ -32,7 +32,7 @@ description: Members of GeoDesiC Lab.
 				His research explores the role of differential geometry 
 				and dynamical systems theory in control synthesis and design for robotic systems, exploiting 
 				structural properties to explainably synthesize efficient controllers, accelerate learning 
-				algorithms, and develop more capable robot morphologies. He envisions a future in which robots move through their surroundings as capably and dynamically as their counterparts in Nature.
+				algorithms, and develop more capable robot morphologies. He envisions a fumengture in which robots move through their surroundings as capably and dynamically as their counterparts in Nature.
 			</p>
 			<p>
 				Prior to joining MAE at Cornell in 2025, Jake spent a decade at the 
@@ -54,31 +54,82 @@ description: Members of GeoDesiC Lab.
 				<a href="{{ '/files/jake_welde_CV.pdf' | relative_url }}">Full CV</a> (Summer 2025) 
 			</p>
 
+		<!-- <h2>Students</h2> -->
+
+		
+		<!-- This section originally generated using ChatGPT - use with caution! -->
+
+		<link rel="stylesheet" href="{{ '/css/lab-members.css' | relative_url }}">
+
 		<h2>Students</h2>
+		<div class="lab-members-section">
 
-		<p>As a newly-founded research group, we are actively recruiting students at all levels. Please find out more <a href="{{ '/join' | relative_url }}">here</a>.</p>
+		{% assign phd_members = site.data.members | where: "level", "phd" %}
+		{% if phd_members.size > 0 %}
+		<h3>Ph.D.</h3>
 
-
-		<!-- <h2>{{ person.name }} - {{ person.role }}</h2> -->
-		<!-- <p>{{ person.content | markdownify }}</p> -->
-
-		<div>
-
-					{% for person in site.people %}
-
-				<!-- <article class="person-token"> -->
-
-					<img src="{{ person.featured_image | relative_url }}" alt="{{ person.name }}" class="headshot">
-
-					<h2>{{ person.name }}</h2>
-
-
-
-				<!-- </article> -->
-
-				{% endfor %}
-
-
+		<div class="lab-members-grid">
+			{% for member in phd_members %}
+				<div class="lab-member-card">
+				<div class="lab-member-image">
+					<img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
+				</div>
+				<div class="lab-member-name">{{ member.name }}</div>
+				<div class="lab-member-major">{{ member.major }}</div>
+				</div>
+			{% endfor %}
 		</div>
+		{% endif %}
+
+		{% assign ms_members = site.data.members | where: "level", "ms" %}
+		{% if ms_members.size > 0 %}
+		<h3>M.S.</h3>
+
+		<div class="lab-members-grid">
+			{% for member in ms_members %}
+				<div class="lab-member-card">
+				<div class="lab-member-image">
+					<img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
+				</div>
+				<div class="lab-member-name">{{ member.name }}</div>
+				<div class="lab-member-major">{{ member.major }}</div>
+				</div>
+			{% endfor %}
+		</div>
+		{% endif %}
+
+		{% assign meng_members = site.data.members | where: "level", "meng" %}
+		{% if meng_members.size > 0 %}
+		<h3>M.Eng.</h3>
+
+		<div class="lab-members-grid">
+			{% for member in meng_members %}
+				<div class="lab-member-card">
+				<div class="lab-member-image">
+					<img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
+				</div>
+				<div class="lab-member-name">{{ member.name }}</div>
+				<div class="lab-member-major">{{ member.major }}</div>
+				</div>
+			{% endfor %}
+		</div>
+		{% endif %}
+
+		{% assign ug_members = site.data.members | where: "level", "ug" %}
+		{% if ug_members.size > 0 %}
+		<h3>Undergraduate</h3>
+
+		<div class="lab-members-grid">
+			{% for member in ug_members %}
+				<div class="lab-member-card">
+				<div class="lab-member-image">
+					<img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
+				</div>
+				<div class="lab-member-name">{{ member.name }}</div>
+				<div class="lab-member-major">{{ member.major }}</div>
+				</div>
+			{% endfor %}
+		</div>
+		{% endif %}
 
 </section>
