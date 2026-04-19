@@ -12,4 +12,4 @@ To learn more about the lab, take a look at our [research]({{ '/' | relative_url
 
 <img src="{{ '/images/logo/logo_only.svg' | relative_url }}" style="width: 80pt;">
 
-**fun facts:** *the lab's logo is an artistic rendering of a [Möbius strip](https://en.wikipedia.org/wiki/Möbius_strip), a non-Euclidean manifold that is both a  non-trivial [fiber bundle](https://en.wikipedia.org/wiki/Fiber_bundle) and a [non-orientable](https://en.wikipedia.org/wiki/Orientability) surface. A [geodesic](https://en.wikipedia.org/wiki/Geodesic) is a path of extremal length within the curved surface of a manifold, a generalization of a "straight line" in Euclidean space.*
+**fun facts:** *the lab's logo is an artistic rendering of a [Möbius strip](https://en.wikipedia.org/wiki/Möbius_strip), a non-Euclidean manifold that is both a  non-trivial [fiber bundle](https://en.wikipedia.org/wiki/Fiber_bundle) and a [non-orientable](https://en.wikipedia.org/wiki/Orientability) surface. A [geodesic](https://en.wikipedia.org/wiki/Geodesic) is a path of critical (usually, minimal) length within the curved surface of a manifold, a generalization of a "straight line" in Euclidean space.*
