@@ -117,6 +117,7 @@ for pubsource in publist:
             last_author = True
             for author in bibdata.entries[bib_id].persons["author"]:
                 name = " ".join(author.first_names + author.middle_names + author.last_names)
+                name = name.replace('{','').replace('}','')
                 # if name[:10] == "Jake Welde":
                 #     name = "<b>" + name + "</b>"
                 if last_author:
