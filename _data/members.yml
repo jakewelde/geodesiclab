@@ -8,6 +8,10 @@
 #   level: ms
 #   image: /images/people/clocktower.jpg
 
+- name: Riley Link
+  major: Applied Mathematics
+  level: phd
+  image: /images/people/riley-link.png
 
 - name: Sotiris Batategas
   major: Aerospace Engineering

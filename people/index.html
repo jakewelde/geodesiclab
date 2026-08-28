@@ -25,7 +25,7 @@ description: Members of GeoDesiC Lab.
 			</div>
 
 			<p style="clear: both; padding-top: 20px;">
-				Dr. Jake Welde is an Assistant Professor in the <a href="https://www.engineering.cornell.edu/mae/">Sibley School of Mechanical 
+				Dr. Jake Welde (pronounced "WELL-dee") is an Assistant Professor in the <a href="https://www.engineering.cornell.edu/mae/">Sibley School of Mechanical 
 				and Aerospace Engineering</a> at <a href="https://www.cornell.edu">Cornell University</a>.
 				He is a member of <a href="https://robotics.cornell.edu">Robotics@Cornell</a>
 				and
@@ -62,12 +62,12 @@ description: Members of GeoDesiC Lab.
 
 		<link rel="stylesheet" href="{{ '/css/lab-members.css' | relative_url }}">
 
-		<h2>Students</h2>
+		<h2>Lab Members</h2>
 		<div class="lab-members-section">
 
 		{% assign phd_members = site.data.members | where: "level", "phd" %}
 		{% if phd_members.size > 0 %}
-		<h3>Ph.D.</h3>
+		<h3>Ph.D. Students</h3>
 
 		<div class="lab-members-grid">
 			{% for member in phd_members %}
@@ -101,7 +101,7 @@ description: Members of GeoDesiC Lab.
 
 		{% assign meng_members = site.data.members | where: "level", "meng" %}
 		{% if meng_members.size > 0 %}
-		<h3>M.Eng.</h3>
+		<h3>M.Eng. Students</h3>
 
 		<div class="lab-members-grid">
 			{% for member in meng_members %}
@@ -118,7 +118,7 @@ description: Members of GeoDesiC Lab.
 
 		{% assign ug_members = site.data.members | where: "level", "ug" %}
 		{% if ug_members.size > 0 %}
-		<h3>Undergraduate</h3>
+		<h3>Undergraduates</h3>
 
 		<div class="lab-members-grid">
 			{% for member in ug_members %}

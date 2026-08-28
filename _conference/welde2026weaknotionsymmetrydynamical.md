@@ -1,10 +1,10 @@
 ---
 title: "A Weak Notion of Symmetry for Dynamical Systems"
-collection: preprint
-permalink: /preprint/welde2026weaknotionsymmetrydynamical
+collection: conference
+permalink: /conference/welde2026weaknotionsymmetrydynamical
 date: 2026-01-01
-venue: 'Preprint'
-citation: 'Jake Welde and Pieter van Goor. &quot;A Weak Notion of Symmetry for Dynamical Systems.&quot; Preprint, 2026.'
+venue: 'IEEE Conference on Decision and Control (CDC)'
+citation: 'Jake Welde and Pieter van Goor. &quot;A Weak Notion of Symmetry for Dynamical Systems.&quot; IEEE Conference on Decision and Control (CDC), 2026.'
 year: '2026'
 authors: 'Jake Welde and Pieter van Goor'
 arxiv: 'https://arxiv.org/abs/2604.01914'
