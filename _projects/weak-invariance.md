@@ -7,6 +7,7 @@ featured_image: '/images/projects/weak_invariance.svg'
 publications:
   - key: welde2026weaknotionsymmetrydynamical
   - key: link2026reductionworkshop
+  - key: welde2026weaknotionsymmetrycontrol
 people: 'Jake Welde, Pieter van Goor, and Riley Link'
 ---
 
