@@ -13,6 +13,18 @@
   level: phd
   image: /images/people/riley-link.png
 
+- name: Daniel Whitman
+  major: Robotics
+  level: phd
+  image: /images/people/dan_whitman.jpeg
+
+- name: Kat Skorniakova
+  major: Robotics
+  level: phd
+  image: /images/people/kat_skorniakova.jpeg
+
+
+
 - name: Sotiris Batategas
   major: Aerospace Engineering
   level: meng
@@ -32,6 +44,11 @@
   major: Mechanical Engineering
   level: meng
   image: /images/people/delaney-lopez.jpg
+
+- name: Thomas Istvan
+  major: Mechanical Engineering
+  level: meng
+  image: /images/people/thomas-istvan.png
 
 
 
